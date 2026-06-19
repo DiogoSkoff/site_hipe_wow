@@ -62,20 +62,20 @@
     color: #ffffff;
   }
   
-  .personalização {
+  .sim {
     position: relative;
     min-height: 100vh;
     display: flex;
     align-items: center;
   }
   
-  .personalização-overlay {
+  .nao {
     position: absolute;
     inset: 0;
     background: linear-gradient(180deg, rgba(8, 19, 46, 0.25), rgba(1, 7, 19, 0.85));
   }
   
-  .personalização-conteudo {
+  .talvez {
     position: relative;
     z-index: 2;
     width: 100%;
@@ -85,7 +85,7 @@
     padding: 0 24px;
   }
   
-  .personalização-subtitulo {
+  .sera {
     font-size: 0.95rem;
     letter-spacing: 0.35em;
     text-transform: uppercase;
@@ -93,7 +93,7 @@
     margin-bottom: 1rem;
   }
   
-  .personalização-titulo {
+  .ablubles {
     font-family: 'Segoe Script', 'Brush Script MT', cursive;
     font-size: clamp(4rem, 10vw, 8rem);
     line-height: 0.9;
@@ -101,7 +101,7 @@
     margin-bottom: 2rem;
   }
   
-  .personalização2 {
+  .semideia {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -117,7 +117,7 @@
     transition: transform 0.25s ease, box-shadow 0.25s ease;
   }
   
-  .personalização2:hover {
+  .semideia:hover {
     transform: translateY(-3px);
     box-shadow: 0 26px 55px rgba(0, 0, 0, 0.22);
   }
